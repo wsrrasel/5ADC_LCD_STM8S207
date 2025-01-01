@@ -53,12 +53,13 @@ crtsi0.sm8
 Release\adc2.o
 Release\debug.o
 Release\filters.o
-Release\lcd162.o
+Release\lcd162_i2c.o
 Release\main.o
 Release\serialcom.o
 Release\stm8s_adc2.o
 Release\stm8s_clk.o
 Release\stm8s_gpio.o
+Release\stm8s_i2c.o
 Release\stm8s_tim2.o
 Release\stm8s_uart1.o
 Release\stm8s_uart3.o

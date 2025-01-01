@@ -53,12 +53,13 @@ crtsi0.sm8
 Debug\adc2.o
 Debug\debug.o
 Debug\filters.o
-Debug\lcd162.o
+Debug\lcd162_i2c.o
 Debug\main.o
 Debug\serialcom.o
 Debug\stm8s_adc2.o
 Debug\stm8s_clk.o
 Debug\stm8s_gpio.o
+Debug\stm8s_i2c.o
 Debug\stm8s_tim2.o
 Debug\stm8s_uart1.o
 Debug\stm8s_uart3.o
