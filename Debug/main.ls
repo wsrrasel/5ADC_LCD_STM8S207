@@ -77,7 +77,7 @@
  205  0071 cd0000        	call	_ADC_Init
  207  0074 84            	pop	a
  208                     ; 73     ADC_Init(&gv.adc[ADC_5], ADC_CH_5);
- 210  0075 4b04          	push	#4
+ 210  0075 4b06          	push	#6
  211  0077 ae004c        	ldw	x,#_gv+76
  212  007a cd0000        	call	_ADC_Init
  214  007d 84            	pop	a

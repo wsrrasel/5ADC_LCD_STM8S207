@@ -10,7 +10,7 @@
 #define ADC_CH_2        ADC2_CHANNEL_1
 #define ADC_CH_3        ADC2_CHANNEL_2
 #define ADC_CH_4        ADC2_CHANNEL_3
-#define ADC_CH_5        ADC2_CHANNEL_4
+#define ADC_CH_5        ADC2_CHANNEL_6
 
 
 /**
