@@ -9,8 +9,8 @@
 #include "stdio.h"
 #include "stm8s_clk.h"
 #include "debug.h"
-#include "SerialCom.h"
-#include "lcd162.h"
+#include "SerialCom.h" 
+#include "lcd162_i2c.h"
 
 #define LED		GPIOB, GPIO_PIN_7
 
@@ -54,12 +54,13 @@ main(){
 		/*LCD Init*/
 		LCD_Begin();
 		LCD_Clear();
+		LCD_OnBL();  
 		LCD_SetCursor(1,1);
 		LCD_PrintString("Welcome!");
 		delay(2000);
 		LCD_Clear();
 		LCD_SetCursor(1,1);
-		LCD_PrintString("1602 LCD");
+		LCD_PrintString("1602 I2C LCD");
 		
     /*Init GIPO for LED*/
 	  GPIO_Init(LED, GPIO_MODE_OUT_PP_LOW_SLOW);
@@ -83,7 +84,7 @@ main(){
 		ADC_Update();
         
 		/*Blink LED------------*/
-    //BlinkLED() 
+    //BlinkLED()  
 		
 		/*Debug Print----------*/
 		dbg_print("Count:%d\r\n", count);

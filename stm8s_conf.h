@@ -38,7 +38,7 @@
 #include "stm8s_tim2.h"
 #include "stm8s_uart1.h"
 #include "stm8s_uart3.h"
-
+#include "stm8s_i2c.h"
 
 /* Exported macro ------------------------------------------------------------*/
 #ifdef  USE_FULL_ASSERT
